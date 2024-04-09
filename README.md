@@ -19,8 +19,10 @@ Note: The maze is randomly generated each time, providing a dynamic environment 
 ## Usage
 
 To run any of the scripts, simply execute them using Python:
+
 ```bash
 python playerMoves.py
+```
 
 Replace `playerMoves.py` with the name of the script you want to run.
 
