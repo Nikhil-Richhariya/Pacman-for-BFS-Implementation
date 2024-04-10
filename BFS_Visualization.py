@@ -84,7 +84,7 @@ def bfs(matrix, start, end):
                 # Update visualization
                 matrix[next_row][next_col] = 2
                 update_display()
-                time.sleep(0.02)
+                time.sleep(0.52)
     
     return None, found
 
@@ -124,7 +124,7 @@ while running:
             # Move the image
             image_pos = list(next_pos)
             update_display()
-            time.sleep(0.2)
+            time.sleep(0.5)
     elif found:
         # Color the tiles on the path
         for pos in path:
@@ -134,6 +134,7 @@ while running:
         running = False
     else:
         print("Can't reach the bottom right block")
+        break
 
 # Quit Pygame
 pygame.quit()

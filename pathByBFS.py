@@ -123,6 +123,7 @@ while running:
                 break
     else:
         print("Can't reach the bottom right block")
+        break
 
     # Check if image reaches the destination
     if tuple(image_pos) == (matrix.shape[0] - 1, matrix.shape[1] - 1):
